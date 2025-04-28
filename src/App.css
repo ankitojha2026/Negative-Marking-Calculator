@@ -1,0 +1,15 @@
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Card Styling */
+.card {
+  background-color: #ffffff;
+  border: 1px solid blue;
+  border-radius: 10px; /* ⭐ Border radius applied */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Thoda andar se spacing achha lagega */
+}
