@@ -115,7 +115,7 @@ const Home = ({x}) => {
             {/* Select Dropdown */}
             <div className="mb-3">
               <label className="form-label fw-bold">Negative Marking Pattern</label>
-              <select className="form-select form-select-sl" name="markingType" required>
+              <select className="form-select form-select" name="markingType" required>
                 <option value="">Select marking scheme</option>
                 <option value="1/1">1 Mark Deducted for 1 Wrong</option>
                 <option value="1/2">½ Mark Deducted for 1 Wrong</option>

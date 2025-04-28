@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/Home'
 import { useState } from 'react'
 import ResultChart from './components/Layout/ResultChart';
+import Footer from './components/UI/Footer';
 
 function App() {
   
@@ -27,10 +28,13 @@ function App() {
           wrongQuestions={chartDatas.wrongQuestions}
           negativeMarks={chartDatas.negativeMarks}
         />
-      )}  
+      )} 
+
+
+    <Footer/> 
 
   </>
 
 }
 
-export default App
+export default App;

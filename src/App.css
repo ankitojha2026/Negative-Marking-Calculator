@@ -17,3 +17,8 @@
 body{
   background-color: white;
 }
+.container{
+ 
+  max-width: 30rem;
+  margin: auto;
+}
