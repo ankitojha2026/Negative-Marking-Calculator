@@ -22,3 +22,7 @@ body{
   max-width: 30rem;
   margin: auto;
 }
+a:hover {
+  color: #ff0000;
+  transition: color 0.3s;
+}
