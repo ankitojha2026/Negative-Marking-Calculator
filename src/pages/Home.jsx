@@ -40,7 +40,6 @@ const Home = ({x}) => {
   
     setChartData(newChartData);
 
-  // ✅ Call x here with updated data
   x(newChartData);
   };
 

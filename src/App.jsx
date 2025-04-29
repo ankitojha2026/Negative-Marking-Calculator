@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import { useState } from 'react'
 import ResultChart from './components/Layout/ResultChart';
 import Footer from './components/UI/Footer';
+import AddDescription from './components/UI/AddDescription';
 
 function App() {
   
@@ -31,6 +32,7 @@ function App() {
       )} 
 
 
+    <AddDescription/>
     <Footer/> 
 
   </>
