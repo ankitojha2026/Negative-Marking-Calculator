@@ -10,9 +10,9 @@ const Footer = () => {
                 <hr className="border-white" />
                 <div className="row">
                     <div className="col">
-                        Column
+                       <h2 className="text-secondary-emphasis">𝓕𝓸𝓵𝓵𝓸𝔀 𝓶𝓮 :</h2>
                     </div>
-                    <div className="col d-flex gap-3">
+                    <div className="col d-flex gap-3 ">
                        <h1><a href=""><FaInstagram /></a> </h1>
                        <h1><a href=""><CiLinkedin /></a> </h1>
                        <h1><a href=""><FaGithub /></a> </h1>

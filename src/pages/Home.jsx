@@ -69,54 +69,54 @@ const Home = ({x}) => {
 
             {/* Input Fields */}
             <div className="mb-2">
-              <label className="form-label fw-bold">Total Questions</label>
+              <label className="form-label fw-bold">Total Questions</label><span className="text-danger">*</span>
               <input
                 type="number"
-                className="form-control form-control-sl"
+                className="form-control form-control-sl border border-secondary"
                 name="totalQuestions"
-                placeholder="Enter total number of questions"
+                placeholder=" "
                 required
               />
             </div>
 
             <div className="mb-2">
-              <label className="form-label fw-bold">Maximum Marks</label>
+              <label className="form-label fw-bold">Maximum Marks</label><span className="text-danger">*</span>
               <input
                 type="number"
-                className="form-control form-control-sl"
+                className="form-control form-control-sl border border-secondary"
                 name="maximumMarks"
-                placeholder="Enter maximum marks"
+                placeholder=" "
                 required
               />
             </div>
 
             <div className="mb-2">
-              <label className="form-label fw-bold">Attempted Questions</label>
+              <label className="form-label fw-bold">Attempted Questions</label><span className="text-danger">*</span>
               <input
                 type="number"
-                className="form-control form-control-sl"
+                className="form-control form-control-sl border border-secondary"
                 name="attemptedQuestions"
-                placeholder="Enter attempted questions"
+                placeholder=" "
                 required
               />
             </div>
 
             <div className="mb-2">
-              <label className="form-label fw-bold">Wrong Questions</label>
+              <label className="form-label fw-bold">Wrong Questions</label><span className="text-danger">*</span>
               <input
                 type="number"
-                className="form-control form-control-sl"
+                className="form-control form-control-sl border border-secondary"
                 name="wrongQuestions"
-                placeholder="Enter number of wrong questions"
+                placeholder=" "
                 required
               />
             </div>
 
             {/* Select Dropdown */}
             <div className="mb-3">
-              <label className="form-label fw-bold">Negative Marking Pattern</label>
-              <select className="form-select form-select" name="markingType" required>
-                <option value="">Select marking scheme</option>
+              <label className="form-label fw-bold">Negative Marking Pattern</label><span className="text-danger">*</span>
+              <select className="form-select border border-secondary" name="markingType" required>
+                <option value="">choose here</option>
                 <option value="1/1">1 Mark Deducted for 1 Wrong</option>
                 <option value="1/2">½ Mark Deducted for 1 Wrong</option>
                 <option value="1/3">⅓ Mark Deducted for 1 Wrong</option>
